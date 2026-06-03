@@ -1,0 +1,498 @@
+{
+  "model": "Qwen3-0.6B-GPTQ-Int4",
+  "model_path": "/dfs/data/Qoder/router_slm/Qwen3-0.6B-GPTQ-Int4",
+  "loader": "gptqmodel(TritonV2QuantLinear)",
+  "device": "cuda:0",
+  "per_keyword_sample_size": 5,
+  "summary": {
+    "total": 40,
+    "correct": 35,
+    "accuracy": 0.875,
+    "avg_inference_time_sec": 0.269,
+    "total_time_sec": 10.78
+  },
+  "per_keyword_accuracy": {
+    "手机拍照": {
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "耳机拍照": {
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "上一曲": {
+      "total": 5,
+      "correct": 4,
+      "accuracy": 0.8
+    },
+    "下一曲": {
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "音量增大": {
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "音量减小": {
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "暂停播放": {
+      "total": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "继续播放": {
+      "total": 5,
+      "correct": 1,
+      "accuracy": 0.2
+    }
+  },
+  "results": [
+    {
+      "id": 1286,
+      "text": "帮我拍照",
+      "lang": "zh",
+      "expected_keyword": "手机拍照",
+      "expected_function": "phone_photo",
+      "predicted_function": "phone_photo",
+      "raw_output": "{\"function\": \"phone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 1.08
+    },
+    {
+      "id": 1288,
+      "text": "拍照",
+      "lang": "zh",
+      "expected_keyword": "手机拍照",
+      "expected_function": "phone_photo",
+      "predicted_function": "phone_photo",
+      "raw_output": "{\"function\": \"phone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.237
+    },
+    {
+      "id": 1290,
+      "text": "帮我拍张照",
+      "lang": "zh",
+      "expected_keyword": "手机拍照",
+      "expected_function": "phone_photo",
+      "predicted_function": "phone_photo",
+      "raw_output": "{\"function\": \"phone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1292,
+      "text": "帮我手机拍照",
+      "lang": "zh",
+      "expected_keyword": "手机拍照",
+      "expected_function": "phone_photo",
+      "predicted_function": "phone_photo",
+      "raw_output": "{\"function\": \"phone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.241
+    },
+    {
+      "id": 1294,
+      "text": "手机拍照",
+      "lang": "zh",
+      "expected_keyword": "手机拍照",
+      "expected_function": "phone_photo",
+      "predicted_function": "phone_photo",
+      "raw_output": "{\"function\": \"phone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.231
+    },
+    {
+      "id": 1339,
+      "text": "帮我耳机拍照",
+      "lang": "zh",
+      "expected_keyword": "耳机拍照",
+      "expected_function": "earphone_photo",
+      "predicted_function": "earphone_photo",
+      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1341,
+      "text": "耳机拍照",
+      "lang": "zh",
+      "expected_keyword": "耳机拍照",
+      "expected_function": "earphone_photo",
+      "predicted_function": "earphone_photo",
+      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1343,
+      "text": "帮我用耳机拍张照",
+      "lang": "zh",
+      "expected_keyword": "耳机拍照",
+      "expected_function": "earphone_photo",
+      "predicted_function": "earphone_photo",
+      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1345,
+      "text": "用耳机拍照",
+      "lang": "zh",
+      "expected_keyword": "耳机拍照",
+      "expected_function": "earphone_photo",
+      "predicted_function": "earphone_photo",
+      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.276
+    },
+    {
+      "id": 1347,
+      "text": "帮我用耳机拍照",
+      "lang": "zh",
+      "expected_keyword": "耳机拍照",
+      "expected_function": "earphone_photo",
+      "predicted_function": "earphone_photo",
+      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "correct": true,
+      "elapsed_sec": 0.339
+    },
+    {
+      "id": 1394,
+      "text": "上一曲",
+      "lang": "zh",
+      "expected_keyword": "上一曲",
+      "expected_function": "previous_track",
+      "predicted_function": "previous_track",
+      "raw_output": "{\"function\": \"previous_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1396,
+      "text": "上一首",
+      "lang": "zh",
+      "expected_keyword": "上一曲",
+      "expected_function": "previous_track",
+      "predicted_function": "previous_track",
+      "raw_output": "{\"function\": \"previous_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1398,
+      "text": "切换上一首",
+      "lang": "zh",
+      "expected_keyword": "上一曲",
+      "expected_function": "previous_track",
+      "predicted_function": "previous_track",
+      "raw_output": "{\"function\": \"previous_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1400,
+      "text": "放上一首",
+      "lang": "zh",
+      "expected_keyword": "上一曲",
+      "expected_function": "previous_track",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": false,
+      "elapsed_sec": 0.233
+    },
+    {
+      "id": 1402,
+      "text": "返回上一曲",
+      "lang": "zh",
+      "expected_keyword": "上一曲",
+      "expected_function": "previous_track",
+      "predicted_function": "previous_track",
+      "raw_output": "{\"function\": \"previous_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1439,
+      "text": "下一曲",
+      "lang": "zh",
+      "expected_keyword": "下一曲",
+      "expected_function": "next_track",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1441,
+      "text": "下一首",
+      "lang": "zh",
+      "expected_keyword": "下一曲",
+      "expected_function": "next_track",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1443,
+      "text": "切歌",
+      "lang": "zh",
+      "expected_keyword": "下一曲",
+      "expected_function": "next_track",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1445,
+      "text": "跳过这首歌",
+      "lang": "zh",
+      "expected_keyword": "下一曲",
+      "expected_function": "next_track",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1447,
+      "text": "切换下一首",
+      "lang": "zh",
+      "expected_keyword": "下一曲",
+      "expected_function": "next_track",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": true,
+      "elapsed_sec": 0.237
+    },
+    {
+      "id": 1487,
+      "text": "音量增大",
+      "lang": "zh",
+      "expected_keyword": "音量增大",
+      "expected_function": "volume_up",
+      "predicted_function": "volume_up",
+      "raw_output": "{\"function\": \"volume_up\"}",
+      "correct": true,
+      "elapsed_sec": 0.235
+    },
+    {
+      "id": 1489,
+      "text": "调大音量",
+      "lang": "zh",
+      "expected_keyword": "音量增大",
+      "expected_function": "volume_up",
+      "predicted_function": "volume_up",
+      "raw_output": "{\"function\": \"volume_up\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1491,
+      "text": "声音大一点",
+      "lang": "zh",
+      "expected_keyword": "音量增大",
+      "expected_function": "volume_up",
+      "predicted_function": "volume_up",
+      "raw_output": "{\"function\": \"volume_up\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1493,
+      "text": "音量调大",
+      "lang": "zh",
+      "expected_keyword": "音量增大",
+      "expected_function": "volume_up",
+      "predicted_function": "volume_up",
+      "raw_output": "{\"function\": \"volume_up\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1494,
+      "text": "把声音调大",
+      "lang": "zh",
+      "expected_keyword": "音量增大",
+      "expected_function": "volume_up",
+      "predicted_function": "volume_up",
+      "raw_output": "{\"function\": \"volume_up\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1535,
+      "text": "音量减小",
+      "lang": "zh",
+      "expected_keyword": "音量减小",
+      "expected_function": "volume_down",
+      "predicted_function": "volume_down",
+      "raw_output": "{\"function\": \"volume_down\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1537,
+      "text": "调小音量",
+      "lang": "zh",
+      "expected_keyword": "音量减小",
+      "expected_function": "volume_down",
+      "predicted_function": "volume_down",
+      "raw_output": "{\"function\": \"volume_down\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1539,
+      "text": "声音小一点",
+      "lang": "zh",
+      "expected_keyword": "音量减小",
+      "expected_function": "volume_down",
+      "predicted_function": "volume_down",
+      "raw_output": "{\"function\": \"volume_down\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1541,
+      "text": "音量调小",
+      "lang": "zh",
+      "expected_keyword": "音量减小",
+      "expected_function": "volume_down",
+      "predicted_function": "volume_down",
+      "raw_output": "{\"function\": \"volume_down\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1542,
+      "text": "把声音调小",
+      "lang": "zh",
+      "expected_keyword": "音量减小",
+      "expected_function": "volume_down",
+      "predicted_function": "volume_down",
+      "raw_output": "{\"function\": \"volume_down\"}",
+      "correct": true,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1582,
+      "text": "暂停播放",
+      "lang": "zh",
+      "expected_keyword": "暂停播放",
+      "expected_function": "pause_playback",
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1584,
+      "text": "停止播放",
+      "lang": "zh",
+      "expected_keyword": "暂停播放",
+      "expected_function": "pause_playback",
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1586,
+      "text": "暂停",
+      "lang": "zh",
+      "expected_keyword": "暂停播放",
+      "expected_function": "pause_playback",
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1588,
+      "text": "停止",
+      "lang": "zh",
+      "expected_keyword": "暂停播放",
+      "expected_function": "pause_playback",
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": true,
+      "elapsed_sec": 0.279
+    },
+    {
+      "id": 1590,
+      "text": "先暂停",
+      "lang": "zh",
+      "expected_keyword": "暂停播放",
+      "expected_function": "pause_playback",
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": true,
+      "elapsed_sec": 0.335
+    },
+    {
+      "id": 1636,
+      "text": "播放音乐",
+      "lang": "zh",
+      "expected_keyword": "继续播放",
+      "expected_function": "resume_playback",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": false,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1638,
+      "text": "继续播放",
+      "lang": "zh",
+      "expected_keyword": "继续播放",
+      "expected_function": "resume_playback",
+      "predicted_function": "resume_playback",
+      "raw_output": "{\"function\": \"resume_playback\"}",
+      "correct": true,
+      "elapsed_sec": 0.262
+    },
+    {
+      "id": 1640,
+      "text": "播放",
+      "lang": "zh",
+      "expected_keyword": "继续播放",
+      "expected_function": "resume_playback",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": false,
+      "elapsed_sec": 0.237
+    },
+    {
+      "id": 1642,
+      "text": "继续",
+      "lang": "zh",
+      "expected_keyword": "继续播放",
+      "expected_function": "resume_playback",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": false,
+      "elapsed_sec": 0.236
+    },
+    {
+      "id": 1644,
+      "text": "恢复播放",
+      "lang": "zh",
+      "expected_keyword": "继续播放",
+      "expected_function": "resume_playback",
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": false,
+      "elapsed_sec": 0.262
+    }
+  ]
+}

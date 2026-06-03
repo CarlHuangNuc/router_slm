@@ -1,0 +1,218 @@
+"""
+基于 FunctionGemma-3-270M-IT 的本地关键词检测 (Native Function Call)
+8个本地关键词:
+  耳机拍照, 手机拍照, 上一曲, 下一曲, 音量增大, 音量减小, 暂停播放, 继续播放
+"""
+import json
+import re
+import time
+import argparse
+
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# 关键词中文名 → function name
+KEYWORD_TO_FN = {
+    '耳机拍照': 'earphone_photo',
+    '手机拍照': 'phone_photo',
+    '上一曲': 'previous_track',
+    '下一曲': 'next_track',
+    '音量增大': 'volume_up',
+    '音量减小': 'volume_down',
+    '暂停播放': 'pause_playback',
+    '继续播放': 'resume_playback',
+}
+
+TOOLS = [
+    {'type': 'function', 'function': {'name': 'earphone_photo', 'description': '通过耳机按键触发拍照(下发到耳机端执行)', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'phone_photo', 'description': '用手机相机拍照。注意:帮我拍照/拍一下等未指明设备的拍照请求默认为手机拍照', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'previous_track', 'description': '切换到上一首歌曲/音频(媒体控制)', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'next_track', 'description': '切换到下一首歌曲/音频(媒体控制),包括切歌/跳过当前歌曲', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'volume_up', 'description': '调高音量/声音变大', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'volume_down', 'description': '调低音量/声音变小', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'pause_playback', 'description': '暂停当前播放(音乐/视频/音频)', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'resume_playback', 'description': '继续/恢复播放,包括开始播放音乐', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+    {'type': 'function', 'function': {'name': 'unknown', 'description': '用户意图与上述8个本地关键词都不匹配,需走云端处理', 'parameters': {'type': 'object', 'properties': {}, 'required': []}}},
+]
+
+
+def build_prompt(tokenizer, user_text: str) -> str:
+    messages = [{"role": "user", "content": user_text}]
+    return tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+        tools=TOOLS
+    )
+
+
+def parse_function_call(output_text: str) -> str:
+    # FunctionGemma outputs: <start_function_call>call:fn_name{}<end_function_call>
+    m = re.search(r'<start_function_call>call:(\w+)\{', output_text)
+    if m:
+        return m.group(1)
+    # Fallback: check for function name in text
+    for fn in KEYWORD_TO_FN.values():
+        if fn in output_text:
+            return fn
+    if 'unknown' in output_text.lower():
+        return 'unknown'
+    if 'sorry' in output_text.lower() or 'cannot' in output_text.lower():
+        return 'unknown'
+    return 'parse_error'
+
+
+def run_inference(model, tokenizer, text: str, device: str, max_new_tokens: int = 32) -> tuple:
+    prompt = build_prompt(tokenizer, text)
+    inputs = tokenizer(prompt, return_tensors='pt').to(device)
+
+    t0 = time.time()
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=max_new_tokens,
+            do_sample=True,
+            temperature=0.7,
+            top_k=50,
+            pad_token_id=tokenizer.eos_token_id
+        )
+    elapsed = time.time() - t0
+
+    new_tokens = outputs[0][inputs.input_ids.shape[1]:]
+    output_text = tokenizer.decode(new_tokens, skip_special_tokens=True)
+    return parse_function_call(output_text), output_text.strip(), elapsed
+
+
+def evaluate(model, tokenizer, samples, device, sample_per_keyword=None, verbose=True):
+    if sample_per_keyword:
+        from collections import defaultdict
+        bucket = defaultdict(list)
+        for s in samples:
+            bucket[s['app']].append(s)
+        selected = []
+        for kw, items in bucket.items():
+            zh = [i for i in items if i['lang'] == 'zh'][:sample_per_keyword]
+            selected.extend(zh)
+        samples = selected
+
+    results = []
+    correct_count = 0
+    total_time = 0.0
+
+    for i, sample in enumerate(samples):
+        text = sample['text']
+        expected_kw = sample['app']
+        expected_fn = KEYWORD_TO_FN[expected_kw]
+
+        predicted_fn, raw_output, elapsed = run_inference(model, tokenizer, text, device)
+        is_correct = predicted_fn == expected_fn
+        if is_correct:
+            correct_count += 1
+        total_time += elapsed
+
+        result = {
+            'id': sample['id'],
+            'text': text,
+            'lang': sample['lang'],
+            'expected_keyword': expected_kw,
+            'expected_function': expected_fn,
+            'predicted_function': predicted_fn,
+            'raw_output': raw_output,
+            'correct': is_correct,
+            'elapsed_sec': round(elapsed, 3)
+        }
+        results.append(result)
+
+        if verbose:
+            mark = 'OK ' if is_correct else 'XX '
+            print(f'[{i+1}/{len(samples)}] {mark}{elapsed:.2f}s | text="{text}" | pred={predicted_fn} | expected={expected_fn}')
+
+    accuracy = correct_count / len(samples) if samples else 0
+    avg_time = total_time / len(samples) if samples else 0
+
+    summary = {
+        'total': len(samples),
+        'correct': correct_count,
+        'accuracy': round(accuracy, 4),
+        'avg_inference_time_sec': round(avg_time, 3),
+        'total_time_sec': round(total_time, 2)
+    }
+
+    from collections import defaultdict
+    per_kw = defaultdict(lambda: {'total': 0, 'correct': 0})
+    for r in results:
+        per_kw[r['expected_keyword']]['total'] += 1
+        if r['correct']:
+            per_kw[r['expected_keyword']]['correct'] += 1
+    per_kw_summary = {
+        kw: {
+            'total': v['total'],
+            'correct': v['correct'],
+            'accuracy': round(v['correct']/v['total'], 4) if v['total'] else 0
+        } for kw, v in per_kw.items()
+    }
+
+    return {
+        'summary': summary,
+        'per_keyword_accuracy': per_kw_summary,
+        'results': results
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model_path', default='/dfs/data/Qoder/router_slm/functiongemma-270m-it')
+    parser.add_argument('--data_path', default='./dataset/local_keywords_zh.json')
+    parser.add_argument('--output_path', default='./keyword_eval_functiongemma270m.json')
+    parser.add_argument('--per_keyword', type=int, default=0,
+                        help='每个关键词测试的样本数(0=全量)')
+    parser.add_argument('--device', default='auto')
+    args = parser.parse_args()
+
+    if args.device == 'auto':
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    else:
+        device = args.device
+    print(f'设备: {device}')
+    print(f'模型路径: {args.model_path}')
+    print('加载 tokenizer 和 model...')
+
+    t0 = time.time()
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path)
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model_path,
+        torch_dtype=torch.float32,
+        device_map=device
+    )
+    model.eval()
+    print(f'模型加载耗时: {time.time()-t0:.2f}s')
+
+    with open(args.data_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    samples = data['data']
+    print(f'数据集样本数: {len(samples)}')
+
+    per_kw = args.per_keyword if args.per_keyword > 0 else None
+    print(f'\n开始评估 (每关键词{per_kw if per_kw else "全部"}条)...\n')
+
+    eval_result = evaluate(model, tokenizer, samples, device, sample_per_keyword=per_kw)
+
+    print('\n========== 评估汇总 ==========')
+    print(json.dumps(eval_result['summary'], ensure_ascii=False, indent=2))
+    print('\n========== 各关键词准确率 ==========')
+    for kw, stats in eval_result['per_keyword_accuracy'].items():
+        print(f'  {kw}: {stats["correct"]}/{stats["total"]} = {stats["accuracy"]*100:.1f}%')
+
+    output = {
+        'model': 'FunctionGemma-3-270M-IT',
+        'device': device,
+        'per_keyword_sample_size': per_kw,
+        **eval_result
+    }
+    with open(args.output_path, 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    print(f'\n详细结果已保存至: {args.output_path}')
+
+
+if __name__ == '__main__':
+    main()

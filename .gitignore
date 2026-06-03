@@ -1,0 +1,46 @@
+# ===== Model weights (exclude all) =====
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.gguf
+*.onnx
+*.ckpt
+*.h5
+
+# ===== Symlinked model directories =====
+/Qwen3-0.6B
+/Qwen3-0.6B-GPTQ-Int4
+/Llama-3.2-1B-Instruct
+/Qwen3-4B/
+/Qwen3-4B-SpinQuant-NVFP4/
+/Qwen3-0_6B_int4_awq/
+/functiongemma-270m-it/
+/gemma-3-270m-it/
+/Router/qwen3-0.6b/
+
+# ===== SpinQuant training outputs (weights) =====
+/SpinQuant/output/
+
+# ===== Third-party nested git repo =====
+/fast-hadamard-transform/.git/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== Build artifacts =====
+build/
+dist/
+*.so
+*.o
+*.whl
+*.ninja_deps
+*.ninja_log
+.ninja_log
+
+# ===== Logs / temp =====
+*.log
+*.tmp

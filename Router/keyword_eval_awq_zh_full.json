@@ -1,29 +1,31 @@
 {
-  "model": "Qwen3-0.6B",
+  "model": "Qwen3-0.6B-AWQ-Int4",
+  "model_path": "/dfs/data/Qoder/router_slm/Qwen3-0_6B_int4_awq",
   "device": "cuda",
-  "per_keyword_sample_size": 100,
+  "eval_scope": "all_zh_221",
+  "per_keyword_sample_size": null,
   "summary": {
     "total": 221,
-    "correct": 197,
-    "accuracy": 0.8914,
-    "avg_inference_time_sec": 0.137,
-    "total_time_sec": 30.2
+    "correct": 191,
+    "accuracy": 0.8643,
+    "avg_inference_time_sec": 0.346,
+    "total_time_sec": 76.48
   },
   "per_keyword_accuracy": {
     "手机拍照": {
       "total": 30,
-      "correct": 29,
-      "accuracy": 0.9667
+      "correct": 30,
+      "accuracy": 1.0
     },
     "耳机拍照": {
       "total": 28,
-      "correct": 28,
-      "accuracy": 1.0
+      "correct": 27,
+      "accuracy": 0.9643
     },
     "上一曲": {
       "total": 26,
-      "correct": 24,
-      "accuracy": 0.9231
+      "correct": 21,
+      "accuracy": 0.8077
     },
     "下一曲": {
       "total": 28,
@@ -47,8 +49,8 @@
     },
     "继续播放": {
       "total": 27,
-      "correct": 7,
-      "accuracy": 0.2593
+      "correct": 4,
+      "accuracy": 0.1481
     }
   },
   "results": [
@@ -59,9 +61,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.502
+      "elapsed_sec": 1.172
     },
     {
       "id": 1288,
@@ -72,7 +74,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.259
     },
     {
       "id": 1290,
@@ -83,7 +85,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.137
+      "elapsed_sec": 0.257
     },
     {
       "id": 1292,
@@ -92,9 +94,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.128
+      "elapsed_sec": 0.386
     },
     {
       "id": 1294,
@@ -105,7 +107,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.247
     },
     {
       "id": 1296,
@@ -114,9 +116,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.374
     },
     {
       "id": 1298,
@@ -127,7 +129,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.256
     },
     {
       "id": 1300,
@@ -136,9 +138,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.372
     },
     {
       "id": 1302,
@@ -147,9 +149,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.387
     },
     {
       "id": 1303,
@@ -160,7 +162,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.255
     },
     {
       "id": 1304,
@@ -171,7 +173,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.251
     },
     {
       "id": 1305,
@@ -180,9 +182,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.373
     },
     {
       "id": 1307,
@@ -193,7 +195,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.255
     },
     {
       "id": 1309,
@@ -204,7 +206,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.253
     },
     {
       "id": 1311,
@@ -215,7 +217,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.25
     },
     {
       "id": 1313,
@@ -224,9 +226,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.369
     },
     {
       "id": 1315,
@@ -237,7 +239,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.254
     },
     {
       "id": 1317,
@@ -246,9 +248,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.373
     },
     {
       "id": 1318,
@@ -257,9 +259,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.387
     },
     {
       "id": 1320,
@@ -267,10 +269,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": false,
-      "elapsed_sec": 0.164
+      "predicted_function": "phone_photo",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
+      "correct": true,
+      "elapsed_sec": 0.366
     },
     {
       "id": 1322,
@@ -279,9 +281,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.114
+      "elapsed_sec": 0.372
     },
     {
       "id": 1323,
@@ -292,7 +294,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.255
     },
     {
       "id": 1324,
@@ -301,9 +303,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.114
+      "elapsed_sec": 0.386
     },
     {
       "id": 1326,
@@ -312,9 +314,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.366
     },
     {
       "id": 1328,
@@ -323,9 +325,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.119
+      "elapsed_sec": 0.379
     },
     {
       "id": 1329,
@@ -336,7 +338,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.25
     },
     {
       "id": 1331,
@@ -345,9 +347,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.119
+      "elapsed_sec": 0.39
     },
     {
       "id": 1333,
@@ -358,7 +360,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.25
     },
     {
       "id": 1335,
@@ -367,9 +369,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.368
     },
     {
       "id": 1337,
@@ -380,7 +382,7 @@
       "predicted_function": "phone_photo",
       "raw_output": "{\"function\": \"phone_photo\"}",
       "correct": true,
-      "elapsed_sec": 0.137
+      "elapsed_sec": 0.254
     },
     {
       "id": 1339,
@@ -389,9 +391,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.398
     },
     {
       "id": 1341,
@@ -400,9 +402,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.416
     },
     {
       "id": 1343,
@@ -411,9 +413,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.151
+      "elapsed_sec": 0.39
     },
     {
       "id": 1345,
@@ -422,9 +424,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.425
     },
     {
       "id": 1347,
@@ -433,9 +435,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.159
+      "elapsed_sec": 0.384
     },
     {
       "id": 1349,
@@ -444,9 +446,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.421
     },
     {
       "id": 1351,
@@ -455,9 +457,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.152
+      "elapsed_sec": 0.389
     },
     {
       "id": 1353,
@@ -466,9 +468,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.414
     },
     {
       "id": 1355,
@@ -477,9 +479,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.145
+      "elapsed_sec": 0.402
     },
     {
       "id": 1356,
@@ -488,9 +490,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.152
+      "elapsed_sec": 0.413
     },
     {
       "id": 1358,
@@ -499,9 +501,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.404
     },
     {
       "id": 1360,
@@ -510,9 +512,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.16
+      "elapsed_sec": 0.406
     },
     {
       "id": 1362,
@@ -521,9 +523,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.407
     },
     {
       "id": 1364,
@@ -532,9 +534,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.151
+      "elapsed_sec": 0.396
     },
     {
       "id": 1366,
@@ -543,9 +545,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.416
     },
     {
       "id": 1368,
@@ -554,9 +556,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.389
     },
     {
       "id": 1370,
@@ -565,9 +567,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.152
+      "elapsed_sec": 0.428
     },
     {
       "id": 1372,
@@ -576,9 +578,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.389
     },
     {
       "id": 1374,
@@ -587,9 +589,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.16
+      "elapsed_sec": 0.421
     },
     {
       "id": 1376,
@@ -598,9 +600,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.398
     },
     {
       "id": 1378,
@@ -609,9 +611,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.151
+      "elapsed_sec": 0.424
     },
     {
       "id": 1380,
@@ -620,9 +622,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.397
     },
     {
       "id": 1382,
@@ -631,9 +633,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.421
     },
     {
       "id": 1384,
@@ -642,9 +644,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.152
+      "elapsed_sec": 0.397
     },
     {
       "id": 1386,
@@ -652,10 +654,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.136
+      "predicted_function": "phone_photo",
+      "raw_output": "```json\n{\"function\": \"phone_photo\"}\n```",
+      "correct": false,
+      "elapsed_sec": 0.391
     },
     {
       "id": 1388,
@@ -664,9 +666,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.16
+      "elapsed_sec": 0.402
     },
     {
       "id": 1390,
@@ -675,9 +677,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.413
     },
     {
       "id": 1392,
@@ -686,9 +688,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "```json\n{\"function\": \"earphone_photo\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.149
+      "elapsed_sec": 0.403
     },
     {
       "id": 1394,
@@ -697,9 +699,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.373
     },
     {
       "id": 1396,
@@ -710,7 +712,7 @@
       "predicted_function": "previous_track",
       "raw_output": "{\"function\": \"previous_track\"}",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.25
     },
     {
       "id": 1398,
@@ -719,9 +721,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.395
     },
     {
       "id": 1400,
@@ -732,7 +734,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.255
     },
     {
       "id": 1402,
@@ -741,9 +743,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.368
     },
     {
       "id": 1404,
@@ -752,9 +754,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.371
     },
     {
       "id": 1405,
@@ -763,9 +765,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.389
     },
     {
       "id": 1407,
@@ -776,7 +778,7 @@
       "predicted_function": "previous_track",
       "raw_output": "{\"function\": \"previous_track\"}",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.254
     },
     {
       "id": 1409,
@@ -785,9 +787,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.363
     },
     {
       "id": 1411,
@@ -798,7 +800,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.254
     },
     {
       "id": 1413,
@@ -807,9 +809,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.364
     },
     {
       "id": 1414,
@@ -818,9 +820,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.395
     },
     {
       "id": 1415,
@@ -829,9 +831,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.367
     },
     {
       "id": 1417,
@@ -842,7 +844,7 @@
       "predicted_function": "previous_track",
       "raw_output": "{\"function\": \"previous_track\"}",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.255
     },
     {
       "id": 1419,
@@ -851,9 +853,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.134
+      "elapsed_sec": 0.363
     },
     {
       "id": 1420,
@@ -861,10 +863,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.124
+      "predicted_function": "next_track",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
+      "correct": false,
+      "elapsed_sec": 0.386
     },
     {
       "id": 1422,
@@ -873,9 +875,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.137
+      "elapsed_sec": 0.376
     },
     {
       "id": 1424,
@@ -884,9 +886,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.125
+      "elapsed_sec": 0.362
     },
     {
       "id": 1425,
@@ -894,10 +896,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.148
+      "predicted_function": "next_track",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
+      "correct": false,
+      "elapsed_sec": 0.392
     },
     {
       "id": 1427,
@@ -906,9 +908,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.106
+      "elapsed_sec": 0.363
     },
     {
       "id": 1429,
@@ -917,9 +919,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.371
     },
     {
       "id": 1431,
@@ -928,9 +930,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.109
+      "elapsed_sec": 0.387
     },
     {
       "id": 1432,
@@ -939,9 +941,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.149
+      "elapsed_sec": 0.363
     },
     {
       "id": 1433,
@@ -949,10 +951,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.117
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": false,
+      "elapsed_sec": 0.252
     },
     {
       "id": 1435,
@@ -961,9 +963,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.358
     },
     {
       "id": 1437,
@@ -972,9 +974,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "```json\n{\"function\": \"previous_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.116
+      "elapsed_sec": 0.392
     },
     {
       "id": 1439,
@@ -985,7 +987,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.249
     },
     {
       "id": 1441,
@@ -996,7 +998,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.254
     },
     {
       "id": 1443,
@@ -1007,7 +1009,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.25
     },
     {
       "id": 1445,
@@ -1016,9 +1018,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.122
+      "elapsed_sec": 0.382
     },
     {
       "id": 1447,
@@ -1027,9 +1029,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.355
     },
     {
       "id": 1448,
@@ -1037,10 +1039,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "predicted_function": "unknown",
+      "raw_output": "{\"function\": \"unknown\"}",
       "correct": false,
-      "elapsed_sec": 0.118
+      "elapsed_sec": 0.233
     },
     {
       "id": 1450,
@@ -1049,9 +1051,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.372
     },
     {
       "id": 1452,
@@ -1062,7 +1064,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.252
     },
     {
       "id": 1453,
@@ -1073,7 +1075,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.255
     },
     {
       "id": 1455,
@@ -1084,7 +1086,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.255
     },
     {
       "id": 1457,
@@ -1093,9 +1095,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.387
     },
     {
       "id": 1459,
@@ -1104,9 +1106,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.374
     },
     {
       "id": 1461,
@@ -1117,7 +1119,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.253
     },
     {
       "id": 1462,
@@ -1126,9 +1128,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.351
     },
     {
       "id": 1463,
@@ -1139,7 +1141,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.258
     },
     {
       "id": 1465,
@@ -1150,7 +1152,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.258
     },
     {
       "id": 1466,
@@ -1161,7 +1163,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.256
     },
     {
       "id": 1468,
@@ -1170,9 +1172,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.353
     },
     {
       "id": 1470,
@@ -1183,7 +1185,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.254
     },
     {
       "id": 1471,
@@ -1192,9 +1194,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.363
     },
     {
       "id": 1473,
@@ -1205,7 +1207,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.258
     },
     {
       "id": 1475,
@@ -1216,7 +1218,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.255
     },
     {
       "id": 1477,
@@ -1227,7 +1229,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.252
     },
     {
       "id": 1479,
@@ -1238,7 +1240,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.255
     },
     {
       "id": 1480,
@@ -1249,7 +1251,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.124
+      "elapsed_sec": 0.254
     },
     {
       "id": 1482,
@@ -1260,7 +1262,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.134
+      "elapsed_sec": 0.254
     },
     {
       "id": 1484,
@@ -1271,7 +1273,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.246
     },
     {
       "id": 1485,
@@ -1282,7 +1284,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.25
     },
     {
       "id": 1487,
@@ -1291,9 +1293,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.121
+      "elapsed_sec": 0.374
     },
     {
       "id": 1489,
@@ -1302,9 +1304,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.373
     },
     {
       "id": 1491,
@@ -1315,7 +1317,7 @@
       "predicted_function": "volume_up",
       "raw_output": "{\"function\": \"volume_up\"}",
       "correct": true,
-      "elapsed_sec": 0.106
+      "elapsed_sec": 0.253
     },
     {
       "id": 1493,
@@ -1324,9 +1326,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.149
+      "elapsed_sec": 0.395
     },
     {
       "id": 1494,
@@ -1335,9 +1337,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.366
     },
     {
       "id": 1496,
@@ -1346,9 +1348,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.373
     },
     {
       "id": 1497,
@@ -1357,9 +1359,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.11
+      "elapsed_sec": 0.392
     },
     {
       "id": 1499,
@@ -1368,9 +1370,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.356
     },
     {
       "id": 1501,
@@ -1379,9 +1381,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.378
     },
     {
       "id": 1503,
@@ -1390,9 +1392,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.386
     },
     {
       "id": 1505,
@@ -1401,9 +1403,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.357
     },
     {
       "id": 1506,
@@ -1412,9 +1414,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.377
     },
     {
       "id": 1508,
@@ -1425,7 +1427,7 @@
       "predicted_function": "volume_up",
       "raw_output": "{\"function\": \"volume_up\"}",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.249
     },
     {
       "id": 1510,
@@ -1434,9 +1436,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.391
     },
     {
       "id": 1511,
@@ -1445,9 +1447,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.116
+      "elapsed_sec": 0.357
     },
     {
       "id": 1513,
@@ -1456,9 +1458,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.38
     },
     {
       "id": 1514,
@@ -1467,9 +1469,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.386
     },
     {
       "id": 1516,
@@ -1478,9 +1480,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.357
     },
     {
       "id": 1518,
@@ -1489,9 +1491,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.114
+      "elapsed_sec": 0.381
     },
     {
       "id": 1520,
@@ -1502,7 +1504,7 @@
       "predicted_function": "volume_up",
       "raw_output": "{\"function\": \"volume_up\"}",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.249
     },
     {
       "id": 1522,
@@ -1513,7 +1515,7 @@
       "predicted_function": "volume_up",
       "raw_output": "{\"function\": \"volume_up\"}",
       "correct": true,
-      "elapsed_sec": 0.119
+      "elapsed_sec": 0.257
     },
     {
       "id": 1524,
@@ -1524,7 +1526,7 @@
       "predicted_function": "volume_up",
       "raw_output": "{\"function\": \"volume_up\"}",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.25
     },
     {
       "id": 1526,
@@ -1533,9 +1535,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.12
+      "elapsed_sec": 0.392
     },
     {
       "id": 1527,
@@ -1544,9 +1546,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.363
     },
     {
       "id": 1529,
@@ -1555,9 +1557,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.118
+      "elapsed_sec": 0.371
     },
     {
       "id": 1531,
@@ -1566,9 +1568,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.386
     },
     {
       "id": 1533,
@@ -1577,9 +1579,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "```json\n{\"function\": \"volume_up\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.363
     },
     {
       "id": 1535,
@@ -1588,9 +1590,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.372
     },
     {
       "id": 1537,
@@ -1599,9 +1601,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.122
+      "elapsed_sec": 0.392
     },
     {
       "id": 1539,
@@ -1610,9 +1612,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.355
     },
     {
       "id": 1541,
@@ -1621,9 +1623,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.122
+      "elapsed_sec": 0.378
     },
     {
       "id": 1542,
@@ -1632,9 +1634,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.386
     },
     {
       "id": 1544,
@@ -1643,9 +1645,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.356
     },
     {
       "id": 1546,
@@ -1654,9 +1656,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.378
     },
     {
       "id": 1548,
@@ -1665,9 +1667,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.386
     },
     {
       "id": 1550,
@@ -1676,9 +1678,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.356
     },
     {
       "id": 1552,
@@ -1687,9 +1689,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.382
     },
     {
       "id": 1554,
@@ -1698,9 +1700,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.383
     },
     {
       "id": 1555,
@@ -1709,9 +1711,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.356
     },
     {
       "id": 1557,
@@ -1722,7 +1724,7 @@
       "predicted_function": "volume_down",
       "raw_output": "{\"function\": \"volume_down\"}",
       "correct": true,
-      "elapsed_sec": 0.128
+      "elapsed_sec": 0.255
     },
     {
       "id": 1559,
@@ -1731,9 +1733,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.369
     },
     {
       "id": 1560,
@@ -1744,7 +1746,7 @@
       "predicted_function": "volume_down",
       "raw_output": "{\"function\": \"volume_down\"}",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.25
     },
     {
       "id": 1561,
@@ -1753,9 +1755,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.393
     },
     {
       "id": 1562,
@@ -1764,9 +1766,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.365
     },
     {
       "id": 1564,
@@ -1775,9 +1777,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.372
     },
     {
       "id": 1566,
@@ -1786,9 +1788,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.201
+      "elapsed_sec": 0.386
     },
     {
       "id": 1568,
@@ -1797,9 +1799,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.195
+      "elapsed_sec": 0.363
     },
     {
       "id": 1570,
@@ -1808,9 +1810,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.183
+      "elapsed_sec": 0.373
     },
     {
       "id": 1572,
@@ -1821,7 +1823,7 @@
       "predicted_function": "volume_down",
       "raw_output": "{\"function\": \"volume_down\"}",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.255
     },
     {
       "id": 1574,
@@ -1830,9 +1832,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.387
     },
     {
       "id": 1575,
@@ -1841,9 +1843,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.366
     },
     {
       "id": 1577,
@@ -1854,7 +1856,7 @@
       "predicted_function": "volume_down",
       "raw_output": "{\"function\": \"volume_down\"}",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.254
     },
     {
       "id": 1579,
@@ -1863,9 +1865,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.363
     },
     {
       "id": 1580,
@@ -1874,9 +1876,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "```json\n{\"function\": \"volume_down\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.397
     },
     {
       "id": 1582,
@@ -1885,9 +1887,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.389
     },
     {
       "id": 1584,
@@ -1896,9 +1898,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.425
     },
     {
       "id": 1586,
@@ -1907,9 +1909,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.163
+      "elapsed_sec": 0.397
     },
     {
       "id": 1588,
@@ -1918,9 +1920,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.417
     },
     {
       "id": 1590,
@@ -1929,9 +1931,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.156
+      "elapsed_sec": 0.398
     },
     {
       "id": 1592,
@@ -1940,9 +1942,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.405
     },
     {
       "id": 1594,
@@ -1953,7 +1955,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.29
     },
     {
       "id": 1596,
@@ -1962,9 +1964,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.399
     },
     {
       "id": 1598,
@@ -1975,7 +1977,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.28
     },
     {
       "id": 1600,
@@ -1984,9 +1986,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.163
+      "elapsed_sec": 0.408
     },
     {
       "id": 1602,
@@ -1995,9 +1997,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.407
     },
     {
       "id": 1604,
@@ -2006,9 +2008,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.155
+      "elapsed_sec": 0.397
     },
     {
       "id": 1606,
@@ -2019,7 +2021,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.284
     },
     {
       "id": 1607,
@@ -2030,7 +2032,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.292
     },
     {
       "id": 1609,
@@ -2039,9 +2041,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.408
     },
     {
       "id": 1611,
@@ -2050,9 +2052,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.399
     },
     {
       "id": 1613,
@@ -2061,9 +2063,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.163
+      "elapsed_sec": 0.416
     },
     {
       "id": 1615,
@@ -2074,7 +2076,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.279
     },
     {
       "id": 1617,
@@ -2083,9 +2085,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.152
+      "elapsed_sec": 0.388
     },
     {
       "id": 1619,
@@ -2094,9 +2096,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.426
     },
     {
       "id": 1621,
@@ -2105,9 +2107,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.385
     },
     {
       "id": 1623,
@@ -2116,9 +2118,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.149
+      "elapsed_sec": 0.421
     },
     {
       "id": 1625,
@@ -2127,9 +2129,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.398
     },
     {
       "id": 1627,
@@ -2140,7 +2142,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.162
+      "elapsed_sec": 0.284
     },
     {
       "id": 1629,
@@ -2149,9 +2151,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.428
     },
     {
       "id": 1631,
@@ -2162,7 +2164,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.151
+      "elapsed_sec": 0.281
     },
     {
       "id": 1633,
@@ -2171,9 +2173,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.388
     },
     {
       "id": 1634,
@@ -2184,7 +2186,7 @@
       "predicted_function": "pause_playback",
       "raw_output": "{\"function\": \"pause_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.284
     },
     {
       "id": 1636,
@@ -2193,9 +2195,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.394
     },
     {
       "id": 1638,
@@ -2206,7 +2208,7 @@
       "predicted_function": "resume_playback",
       "raw_output": "{\"function\": \"resume_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.289
     },
     {
       "id": 1640,
@@ -2215,9 +2217,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.362
     },
     {
       "id": 1642,
@@ -2225,10 +2227,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.133
+      "predicted_function": "unknown",
+      "raw_output": "{\"function\": \"unknown\"}",
+      "correct": false,
+      "elapsed_sec": 0.229
     },
     {
       "id": 1644,
@@ -2236,10 +2238,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.152
+      "predicted_function": "pause_playback",
+      "raw_output": "{\"function\": \"pause_playback\"}",
+      "correct": false,
+      "elapsed_sec": 0.279
     },
     {
       "id": 1645,
@@ -2250,7 +2252,7 @@
       "predicted_function": "resume_playback",
       "raw_output": "{\"function\": \"resume_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.279
     },
     {
       "id": 1647,
@@ -2261,7 +2263,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.254
     },
     {
       "id": 1649,
@@ -2272,7 +2274,7 @@
       "predicted_function": "resume_playback",
       "raw_output": "{\"function\": \"resume_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.284
     },
     {
       "id": 1651,
@@ -2283,7 +2285,7 @@
       "predicted_function": "unknown",
       "raw_output": "{\"function\": \"unknown\"}",
       "correct": false,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.211
     },
     {
       "id": 1653,
@@ -2294,7 +2296,7 @@
       "predicted_function": "resume_playback",
       "raw_output": "{\"function\": \"resume_playback\"}",
       "correct": true,
-      "elapsed_sec": 0.141
+      "elapsed_sec": 0.284
     },
     {
       "id": 1655,
@@ -2305,7 +2307,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.125
+      "elapsed_sec": 0.257
     },
     {
       "id": 1656,
@@ -2313,10 +2315,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.147
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
+      "correct": false,
+      "elapsed_sec": 0.255
     },
     {
       "id": 1658,
@@ -2324,10 +2326,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "predicted_function": "next_track",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.377
     },
     {
       "id": 1660,
@@ -2336,9 +2338,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.364
     },
     {
       "id": 1662,
@@ -2349,7 +2351,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.258
     },
     {
       "id": 1664,
@@ -2360,7 +2362,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.251
     },
     {
       "id": 1666,
@@ -2369,9 +2371,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.382
     },
     {
       "id": 1668,
@@ -2379,10 +2381,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.159
+      "elapsed_sec": 0.259
     },
     {
       "id": 1670,
@@ -2393,7 +2395,7 @@
       "predicted_function": "next_track",
       "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.249
     },
     {
       "id": 1672,
@@ -2401,10 +2403,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "predicted_function": "next_track",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.153
+      "elapsed_sec": 0.396
     },
     {
       "id": 1674,
@@ -2412,10 +2414,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "predicted_function": "unknown",
+      "raw_output": "```json\n{\"function\": \"unknown\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.137
+      "elapsed_sec": 0.333
     },
     {
       "id": 1676,
@@ -2424,9 +2426,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.371
     },
     {
       "id": 1678,
@@ -2435,9 +2437,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "```json\n{\"function\": \"pause_playback\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.418
     },
     {
       "id": 1680,
@@ -2448,7 +2450,7 @@
       "predicted_function": "unknown",
       "raw_output": "{\"function\": \"unknown\"}",
       "correct": false,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.214
     },
     {
       "id": 1682,
@@ -2457,9 +2459,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.376
     },
     {
       "id": 1684,
@@ -2467,10 +2469,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "unknown",
-      "raw_output": "{\"function\": \"unknown\"}",
+      "predicted_function": "next_track",
+      "raw_output": "{\"function\": \"next_track\"}",
       "correct": false,
-      "elapsed_sec": 0.118
+      "elapsed_sec": 0.257
     },
     {
       "id": 1686,
@@ -2479,9 +2481,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "```json\n{\"function\": \"next_track\"}\n```",
       "correct": false,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.362
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
-  "model": "Qwen3-0.6B",
+  "model": "FunctionGemma-3-270M-IT",
   "device": "cuda",
-  "per_keyword_sample_size": 100,
+  "per_keyword_sample_size": null,
   "summary": {
     "total": 221,
-    "correct": 197,
-    "accuracy": 0.8914,
-    "avg_inference_time_sec": 0.137,
-    "total_time_sec": 30.2
+    "correct": 127,
+    "accuracy": 0.5747,
+    "avg_inference_time_sec": 0.142,
+    "total_time_sec": 31.36
   },
   "per_keyword_accuracy": {
     "手机拍照": {
       "total": 30,
-      "correct": 29,
-      "accuracy": 0.9667
+      "correct": 16,
+      "accuracy": 0.5333
     },
     "耳机拍照": {
       "total": 28,
-      "correct": 28,
-      "accuracy": 1.0
+      "correct": 4,
+      "accuracy": 0.1429
     },
     "上一曲": {
       "total": 26,
-      "correct": 24,
-      "accuracy": 0.9231
+      "correct": 9,
+      "accuracy": 0.3462
     },
     "下一曲": {
       "total": 28,
-      "correct": 27,
-      "accuracy": 0.9643
+      "correct": 21,
+      "accuracy": 0.75
     },
     "音量增大": {
       "total": 27,
@@ -37,8 +37,8 @@
     },
     "音量减小": {
       "total": 27,
-      "correct": 27,
-      "accuracy": 1.0
+      "correct": 21,
+      "accuracy": 0.7778
     },
     "暂停播放": {
       "total": 28,
@@ -47,8 +47,8 @@
     },
     "继续播放": {
       "total": 27,
-      "correct": 7,
-      "accuracy": 0.2593
+      "correct": 1,
+      "accuracy": 0.037
     }
   },
   "results": [
@@ -59,9 +59,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.502
+      "elapsed_sec": 0.548
     },
     {
       "id": 1288,
@@ -70,9 +70,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.128
     },
     {
       "id": 1290,
@@ -80,10 +80,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.137
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.13
     },
     {
       "id": 1292,
@@ -92,7 +92,7 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
       "elapsed_sec": 0.128
     },
@@ -103,9 +103,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.132
     },
     {
       "id": 1296,
@@ -114,9 +114,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1298,
@@ -124,10 +124,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.133
+      "predicted_function": "resume_playback",
+      "raw_output": "<start_function_call>call:resume_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1300,
@@ -135,10 +135,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.131
+      "predicted_function": "photo",
+      "raw_output": "<start_function_call>call:photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.101
     },
     {
       "id": 1302,
@@ -147,9 +147,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1303,
@@ -158,9 +158,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.128
     },
     {
       "id": 1304,
@@ -168,10 +168,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.127
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.133
     },
     {
       "id": 1305,
@@ -180,9 +180,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.128
     },
     {
       "id": 1307,
@@ -190,10 +190,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.127
+      "predicted_function": "parse_error",
+      "raw_output": "您好！我需要一些信息才能帮助您进行拍照。请提供您想拍照的内容或需要进行拍照的请求。",
+      "correct": false,
+      "elapsed_sec": 0.378
     },
     {
       "id": 1309,
@@ -202,9 +202,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.131
     },
     {
       "id": 1311,
@@ -212,10 +212,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.123
+      "predicted_function": "photo",
+      "raw_output": "<start_function_call>call:photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.1
     },
     {
       "id": 1313,
@@ -224,9 +224,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.128
     },
     {
       "id": 1315,
@@ -234,10 +234,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.115
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1317,
@@ -246,9 +246,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.128
     },
     {
       "id": 1318,
@@ -256,10 +256,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.111
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1320,
@@ -267,10 +267,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.164
+      "elapsed_sec": 0.13
     },
     {
       "id": 1322,
@@ -278,10 +278,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.114
+      "predicted_function": "parse_error",
+      "raw_output": "I would be happy to help! Could you please describe what you would like to photograph?",
+      "correct": false,
+      "elapsed_sec": 0.268
     },
     {
       "id": 1323,
@@ -289,10 +289,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.143
+      "predicted_function": "unknown",
+      "raw_output": "I cannot assist with photo editing or image manipulation. My current capabilities are limited to managing audio playback and recording devices.",
+      "correct": false,
+      "elapsed_sec": 0.338
     },
     {
       "id": 1324,
@@ -301,9 +301,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.114
+      "elapsed_sec": 0.129
     },
     {
       "id": 1326,
@@ -312,9 +312,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.128
     },
     {
       "id": 1328,
@@ -322,10 +322,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.119
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1329,
@@ -334,9 +334,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.128
     },
     {
       "id": 1331,
@@ -345,9 +345,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.119
+      "elapsed_sec": 0.128
     },
     {
       "id": 1333,
@@ -355,10 +355,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.14
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1335,
@@ -367,9 +367,9 @@
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
       "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.131
     },
     {
       "id": 1337,
@@ -377,10 +377,10 @@
       "lang": "zh",
       "expected_keyword": "手机拍照",
       "expected_function": "phone_photo",
-      "predicted_function": "phone_photo",
-      "raw_output": "{\"function\": \"phone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.137
+      "predicted_function": "photo",
+      "raw_output": "<start_function_call>call:photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.1
     },
     {
       "id": 1339,
@@ -388,10 +388,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.143
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1341,
@@ -399,10 +399,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.14
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1343,
@@ -410,10 +410,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.151
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1345,
@@ -421,10 +421,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.135
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1347,
@@ -432,10 +432,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.159
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1349,
@@ -443,10 +443,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.132
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1351,
@@ -454,10 +454,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.152
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.13
     },
     {
       "id": 1353,
@@ -465,10 +465,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.142
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1355,
@@ -476,10 +476,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.145
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1356,
@@ -487,10 +487,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.152
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1358,
@@ -498,10 +498,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.136
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1360,
@@ -509,10 +509,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.16
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1362,
@@ -521,9 +521,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "<start_function_call>call:earphone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.142
     },
     {
       "id": 1364,
@@ -531,10 +531,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.151
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1366,
@@ -542,10 +542,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.144
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1368,
@@ -553,10 +553,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.14
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1370,
@@ -564,10 +564,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.152
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1372,
@@ -575,10 +575,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.136
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1374,
@@ -586,10 +586,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.16
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.133
     },
     {
       "id": 1376,
@@ -597,9 +597,9 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
       "elapsed_sec": 0.131
     },
     {
@@ -609,9 +609,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "<start_function_call>call:earphone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.151
+      "elapsed_sec": 0.143
     },
     {
       "id": 1380,
@@ -619,10 +619,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.144
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1382,
@@ -630,10 +630,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.14
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1384,
@@ -641,10 +641,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.152
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1386,
@@ -652,10 +652,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.136
+      "predicted_function": "camera_control",
+      "raw_output": "<start_function_call>call:camera_control{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1388,
@@ -664,9 +664,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "<start_function_call>call:earphone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.16
+      "elapsed_sec": 0.143
     },
     {
       "id": 1390,
@@ -675,9 +675,9 @@
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
       "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
+      "raw_output": "<start_function_call>call:earphone_photo{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.142
     },
     {
       "id": 1392,
@@ -685,10 +685,10 @@
       "lang": "zh",
       "expected_keyword": "耳机拍照",
       "expected_function": "earphone_photo",
-      "predicted_function": "earphone_photo",
-      "raw_output": "{\"function\": \"earphone_photo\"}",
-      "correct": true,
-      "elapsed_sec": 0.149
+      "predicted_function": "phone_photo",
+      "raw_output": "<start_function_call>call:phone_photo{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1394,
@@ -697,9 +697,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     },
     {
       "id": 1396,
@@ -708,9 +708,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1398,
@@ -718,10 +718,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.126
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1400,
@@ -729,10 +729,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1402,
@@ -741,9 +741,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     },
     {
       "id": 1404,
@@ -751,10 +751,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.131
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1405,
@@ -763,9 +763,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.128
     },
     {
       "id": 1407,
@@ -773,10 +773,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.129
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1409,
@@ -784,10 +784,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.129
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.13
     },
     {
       "id": 1411,
@@ -795,10 +795,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": false,
-      "elapsed_sec": 0.127
+      "predicted_function": "previous_track",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
+      "correct": true,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1413,
@@ -807,9 +807,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.128
     },
     {
       "id": 1414,
@@ -817,10 +817,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.126
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1415,
@@ -828,10 +828,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.133
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1417,
@@ -839,10 +839,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.123
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1419,
@@ -851,9 +851,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.134
+      "elapsed_sec": 0.128
     },
     {
       "id": 1420,
@@ -861,10 +861,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.124
+      "predicted_function": "unknown",
+      "raw_output": "<start_function_call>call:unknown{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.1
     },
     {
       "id": 1422,
@@ -873,9 +873,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.137
+      "elapsed_sec": 0.129
     },
     {
       "id": 1424,
@@ -883,10 +883,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.125
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.131
     },
     {
       "id": 1425,
@@ -894,10 +894,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.148
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1427,
@@ -906,9 +906,9 @@
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
       "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "raw_output": "<start_function_call>call:previous_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.106
+      "elapsed_sec": 0.128
     },
     {
       "id": 1429,
@@ -916,10 +916,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.148
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1431,
@@ -927,10 +927,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.109
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1432,
@@ -938,10 +938,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.149
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1433,
@@ -949,10 +949,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.117
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1435,
@@ -960,10 +960,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.146
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1437,
@@ -971,10 +971,10 @@
       "lang": "zh",
       "expected_keyword": "上一曲",
       "expected_function": "previous_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.116
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1439,
@@ -983,9 +983,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.128
     },
     {
       "id": 1441,
@@ -994,9 +994,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.129
     },
     {
       "id": 1443,
@@ -1004,10 +1004,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.144
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1445,
@@ -1015,10 +1015,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.122
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1447,
@@ -1027,9 +1027,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.128
     },
     {
       "id": 1448,
@@ -1037,10 +1037,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "previous_track",
-      "raw_output": "{\"function\": \"previous_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.118
+      "elapsed_sec": 0.128
     },
     {
       "id": 1450,
@@ -1049,9 +1049,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.13
     },
     {
       "id": 1452,
@@ -1060,9 +1060,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.128
     },
     {
       "id": 1453,
@@ -1071,9 +1071,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.128
     },
     {
       "id": 1455,
@@ -1082,9 +1082,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.128
     },
     {
       "id": 1457,
@@ -1093,9 +1093,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.128
     },
     {
       "id": 1459,
@@ -1104,9 +1104,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.136
     },
     {
       "id": 1461,
@@ -1115,9 +1115,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.129
     },
     {
       "id": 1462,
@@ -1126,9 +1126,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     },
     {
       "id": 1463,
@@ -1137,9 +1137,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.129
     },
     {
       "id": 1465,
@@ -1148,9 +1148,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1466,
@@ -1159,9 +1159,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.128
     },
     {
       "id": 1468,
@@ -1170,9 +1170,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.13
     },
     {
       "id": 1470,
@@ -1180,10 +1180,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.129
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1471,
@@ -1192,9 +1192,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1473,
@@ -1202,10 +1202,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.127
+      "predicted_function": "resume_playback",
+      "raw_output": "<start_function_call>call:resume_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1475,
@@ -1214,9 +1214,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.129
     },
     {
       "id": 1477,
@@ -1225,9 +1225,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     },
     {
       "id": 1479,
@@ -1236,9 +1236,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.128
     },
     {
       "id": 1480,
@@ -1246,10 +1246,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.124
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1482,
@@ -1258,9 +1258,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.134
+      "elapsed_sec": 0.128
     },
     {
       "id": 1484,
@@ -1269,9 +1269,9 @@
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
       "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "raw_output": "<start_function_call>call:next_track{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1485,
@@ -1279,10 +1279,10 @@
       "lang": "zh",
       "expected_keyword": "下一曲",
       "expected_function": "next_track",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
-      "correct": true,
-      "elapsed_sec": 0.138
+      "predicted_function": "resume_playback",
+      "raw_output": "<start_function_call>call:resume_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1487,
@@ -1291,9 +1291,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.121
+      "elapsed_sec": 0.239
     },
     {
       "id": 1489,
@@ -1302,9 +1302,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.24
     },
     {
       "id": 1491,
@@ -1313,9 +1313,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.106
+      "elapsed_sec": 0.24
     },
     {
       "id": 1493,
@@ -1324,9 +1324,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.149
+      "elapsed_sec": 0.242
     },
     {
       "id": 1494,
@@ -1335,9 +1335,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.142
     },
     {
       "id": 1496,
@@ -1346,9 +1346,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.142
     },
     {
       "id": 1497,
@@ -1357,9 +1357,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.11
+      "elapsed_sec": 0.239
     },
     {
       "id": 1499,
@@ -1368,9 +1368,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.144
     },
     {
       "id": 1501,
@@ -1379,9 +1379,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.142
     },
     {
       "id": 1503,
@@ -1390,9 +1390,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.115
     },
     {
       "id": 1505,
@@ -1401,9 +1401,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.241
     },
     {
       "id": 1506,
@@ -1412,9 +1412,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.128
     },
     {
       "id": 1508,
@@ -1423,9 +1423,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.24
     },
     {
       "id": 1510,
@@ -1434,9 +1434,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>",
       "correct": true,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.114
     },
     {
       "id": 1511,
@@ -1445,9 +1445,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.116
+      "elapsed_sec": 0.24
     },
     {
       "id": 1513,
@@ -1456,9 +1456,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.24
     },
     {
       "id": 1514,
@@ -1467,9 +1467,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.142
     },
     {
       "id": 1516,
@@ -1478,9 +1478,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.241
     },
     {
       "id": 1518,
@@ -1489,9 +1489,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.114
+      "elapsed_sec": 0.128
     },
     {
       "id": 1520,
@@ -1500,9 +1500,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.143
+      "elapsed_sec": 0.142
     },
     {
       "id": 1522,
@@ -1511,9 +1511,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.119
+      "elapsed_sec": 0.24
     },
     {
       "id": 1524,
@@ -1522,9 +1522,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.142
     },
     {
       "id": 1526,
@@ -1533,9 +1533,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.12
+      "elapsed_sec": 0.128
     },
     {
       "id": 1527,
@@ -1544,9 +1544,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.239
     },
     {
       "id": 1529,
@@ -1555,9 +1555,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.118
+      "elapsed_sec": 0.239
     },
     {
       "id": 1531,
@@ -1566,9 +1566,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.241
     },
     {
       "id": 1533,
@@ -1577,9 +1577,9 @@
       "expected_keyword": "音量增大",
       "expected_function": "volume_up",
       "predicted_function": "volume_up",
-      "raw_output": "{\"function\": \"volume_up\"}",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.123
+      "elapsed_sec": 0.142
     },
     {
       "id": 1535,
@@ -1588,9 +1588,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.128
     },
     {
       "id": 1537,
@@ -1598,10 +1598,10 @@
       "lang": "zh",
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
-      "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
-      "correct": true,
-      "elapsed_sec": 0.122
+      "predicted_function": "volume_up",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.24
     },
     {
       "id": 1539,
@@ -1609,10 +1609,10 @@
       "lang": "zh",
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
-      "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
-      "correct": true,
-      "elapsed_sec": 0.136
+      "predicted_function": "volume_up",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.24
     },
     {
       "id": 1541,
@@ -1621,9 +1621,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.122
+      "elapsed_sec": 0.128
     },
     {
       "id": 1542,
@@ -1632,9 +1632,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.135
+      "elapsed_sec": 0.129
     },
     {
       "id": 1544,
@@ -1643,9 +1643,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1546,
@@ -1654,9 +1654,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1548,
@@ -1665,9 +1665,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1550,
@@ -1676,9 +1676,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.128
     },
     {
       "id": 1552,
@@ -1687,9 +1687,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.128
     },
     {
       "id": 1554,
@@ -1698,9 +1698,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1555,
@@ -1709,9 +1709,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.129
+      "elapsed_sec": 0.128
     },
     {
       "id": 1557,
@@ -1720,7 +1720,7 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
       "elapsed_sec": 0.128
     },
@@ -1731,9 +1731,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.129
     },
     {
       "id": 1560,
@@ -1742,9 +1742,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.129
     },
     {
       "id": 1561,
@@ -1753,9 +1753,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.13
+      "elapsed_sec": 0.128
     },
     {
       "id": 1562,
@@ -1763,10 +1763,10 @@
       "lang": "zh",
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
-      "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
-      "correct": true,
-      "elapsed_sec": 0.126
+      "predicted_function": "volume_up",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call><start_function_call>call:volume_down{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.24
     },
     {
       "id": 1564,
@@ -1775,9 +1775,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.128
     },
     {
       "id": 1566,
@@ -1785,10 +1785,10 @@
       "lang": "zh",
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
-      "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
-      "correct": true,
-      "elapsed_sec": 0.201
+      "predicted_function": "volume_up",
+      "raw_output": "<start_function_call>call:volume_up<escape>",
+      "correct": false,
+      "elapsed_sec": 0.115
     },
     {
       "id": 1568,
@@ -1797,9 +1797,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.195
+      "elapsed_sec": 0.129
     },
     {
       "id": 1570,
@@ -1807,10 +1807,10 @@
       "lang": "zh",
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
-      "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
-      "correct": true,
-      "elapsed_sec": 0.183
+      "predicted_function": "volume_up",
+      "raw_output": "<start_function_call>call:volume_up<escape>}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.142
     },
     {
       "id": 1572,
@@ -1819,9 +1819,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down<escape>}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.144
     },
     {
       "id": 1574,
@@ -1830,9 +1830,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.129
     },
     {
       "id": 1575,
@@ -1841,9 +1841,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     },
     {
       "id": 1577,
@@ -1852,9 +1852,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1579,
@@ -1863,9 +1863,9 @@
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
       "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
+      "raw_output": "<start_function_call>call:volume_down{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     },
     {
       "id": 1580,
@@ -1873,10 +1873,10 @@
       "lang": "zh",
       "expected_keyword": "音量减小",
       "expected_function": "volume_down",
-      "predicted_function": "volume_down",
-      "raw_output": "{\"function\": \"volume_down\"}",
-      "correct": true,
-      "elapsed_sec": 0.131
+      "predicted_function": "volume_up",
+      "raw_output": "<start_function_call>call:volume_up{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1582,
@@ -1885,9 +1885,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.128
     },
     {
       "id": 1584,
@@ -1896,9 +1896,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.128
     },
     {
       "id": 1586,
@@ -1907,9 +1907,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.163
+      "elapsed_sec": 0.129
     },
     {
       "id": 1588,
@@ -1918,9 +1918,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1590,
@@ -1929,9 +1929,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.156
+      "elapsed_sec": 0.128
     },
     {
       "id": 1592,
@@ -1940,9 +1940,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.136
+      "elapsed_sec": 0.128
     },
     {
       "id": 1594,
@@ -1951,9 +1951,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.128
     },
     {
       "id": 1596,
@@ -1962,9 +1962,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.128
     },
     {
       "id": 1598,
@@ -1973,9 +1973,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.128
     },
     {
       "id": 1600,
@@ -1984,9 +1984,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.163
+      "elapsed_sec": 0.128
     },
     {
       "id": 1602,
@@ -1995,9 +1995,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.127
+      "elapsed_sec": 0.128
     },
     {
       "id": 1604,
@@ -2006,9 +2006,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.155
+      "elapsed_sec": 0.128
     },
     {
       "id": 1606,
@@ -2017,9 +2017,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.14
+      "elapsed_sec": 0.128
     },
     {
       "id": 1607,
@@ -2028,9 +2028,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.128
     },
     {
       "id": 1609,
@@ -2039,9 +2039,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.128
     },
     {
       "id": 1611,
@@ -2050,9 +2050,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.129
     },
     {
       "id": 1613,
@@ -2061,9 +2061,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.163
+      "elapsed_sec": 0.131
     },
     {
       "id": 1615,
@@ -2072,9 +2072,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.132
+      "elapsed_sec": 0.131
     },
     {
       "id": 1617,
@@ -2083,9 +2083,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.152
+      "elapsed_sec": 0.128
     },
     {
       "id": 1619,
@@ -2094,9 +2094,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.128
     },
     {
       "id": 1621,
@@ -2105,9 +2105,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.144
+      "elapsed_sec": 0.128
     },
     {
       "id": 1623,
@@ -2116,9 +2116,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.149
+      "elapsed_sec": 0.129
     },
     {
       "id": 1625,
@@ -2127,9 +2127,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.129
     },
     {
       "id": 1627,
@@ -2138,9 +2138,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.162
+      "elapsed_sec": 0.128
     },
     {
       "id": 1629,
@@ -2149,9 +2149,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.128
     },
     {
       "id": 1631,
@@ -2160,9 +2160,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.151
+      "elapsed_sec": 0.128
     },
     {
       "id": 1633,
@@ -2171,9 +2171,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.129
     },
     {
       "id": 1634,
@@ -2182,9 +2182,9 @@
       "expected_keyword": "暂停播放",
       "expected_function": "pause_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.139
+      "elapsed_sec": 0.129
     },
     {
       "id": 1636,
@@ -2192,10 +2192,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.148
+      "elapsed_sec": 0.129
     },
     {
       "id": 1638,
@@ -2203,10 +2203,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.126
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.134
     },
     {
       "id": 1640,
@@ -2214,10 +2214,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.146
+      "elapsed_sec": 0.129
     },
     {
       "id": 1642,
@@ -2226,9 +2226,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
+      "raw_output": "<start_function_call>call:resume_playback{}<end_function_call>",
       "correct": true,
-      "elapsed_sec": 0.133
+      "elapsed_sec": 0.128
     },
     {
       "id": 1644,
@@ -2236,10 +2236,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.152
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.129
     },
     {
       "id": 1645,
@@ -2247,10 +2247,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.14
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1647,
@@ -2258,10 +2258,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1649,
@@ -2269,10 +2269,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.148
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1651,
@@ -2280,10 +2280,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "unknown",
-      "raw_output": "{\"function\": \"unknown\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.128
     },
     {
       "id": 1653,
@@ -2291,10 +2291,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.141
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1655,
@@ -2302,10 +2302,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.125
+      "elapsed_sec": 0.128
     },
     {
       "id": 1656,
@@ -2313,10 +2313,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "resume_playback",
-      "raw_output": "{\"function\": \"resume_playback\"}",
-      "correct": true,
-      "elapsed_sec": 0.147
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
+      "correct": false,
+      "elapsed_sec": 0.128
     },
     {
       "id": 1658,
@@ -2325,9 +2325,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.138
+      "elapsed_sec": 0.129
     },
     {
       "id": 1660,
@@ -2335,10 +2335,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.129
     },
     {
       "id": 1662,
@@ -2346,10 +2346,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.128
     },
     {
       "id": 1664,
@@ -2357,10 +2357,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.147
+      "elapsed_sec": 0.128
     },
     {
       "id": 1666,
@@ -2368,10 +2368,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.111
+      "elapsed_sec": 0.128
     },
     {
       "id": 1668,
@@ -2380,9 +2380,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.159
+      "elapsed_sec": 0.128
     },
     {
       "id": 1670,
@@ -2390,10 +2390,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.128
     },
     {
       "id": 1672,
@@ -2402,9 +2402,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.153
+      "elapsed_sec": 0.128
     },
     {
       "id": 1674,
@@ -2413,9 +2413,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.137
+      "elapsed_sec": 0.128
     },
     {
       "id": 1676,
@@ -2423,10 +2423,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.131
+      "elapsed_sec": 0.128
     },
     {
       "id": 1678,
@@ -2435,9 +2435,9 @@
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
       "predicted_function": "pause_playback",
-      "raw_output": "{\"function\": \"pause_playback\"}",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.142
+      "elapsed_sec": 0.128
     },
     {
       "id": 1680,
@@ -2445,10 +2445,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "unknown",
-      "raw_output": "{\"function\": \"unknown\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.115
+      "elapsed_sec": 0.128
     },
     {
       "id": 1682,
@@ -2456,10 +2456,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.127
     },
     {
       "id": 1684,
@@ -2467,10 +2467,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "unknown",
-      "raw_output": "{\"function\": \"unknown\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.118
+      "elapsed_sec": 0.128
     },
     {
       "id": 1686,
@@ -2478,10 +2478,10 @@
       "lang": "zh",
       "expected_keyword": "继续播放",
       "expected_function": "resume_playback",
-      "predicted_function": "next_track",
-      "raw_output": "{\"function\": \"next_track\"}",
+      "predicted_function": "pause_playback",
+      "raw_output": "<start_function_call>call:pause_playback{}<end_function_call>",
       "correct": false,
-      "elapsed_sec": 0.126
+      "elapsed_sec": 0.128
     }
   ]
 }

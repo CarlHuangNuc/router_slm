@@ -1,0 +1,3692 @@
+[
+  {
+    "text": "<|im_start|>user\n帮我拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo for me<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with my phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake photos with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用手机拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture with my phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture for me<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍个照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍个照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮忙拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n我要拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nI want to take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n现在拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo now<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n立刻拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo immediately<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n马上拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo right away<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take one<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一张吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一下<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a quick photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我来张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我照张相<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机拍一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机来一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n打开相机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nOpen the camera to take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n快拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo quickly<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一下<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a quick photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍个照片吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍个照片吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo for me please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo using the earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake photos via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍张照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture with my earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机控制拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nControl photo capture with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机帮我拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take a photo for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机帮我拍张照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHave earphones take a picture for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机拍个照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake pictures with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机触发拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTrigger photo capture via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机按键拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo via earphone button<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机进行拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍一张<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take one with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机帮我拍照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take pictures for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照一下<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a quick photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机快速拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nQuickly take a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张照片吧<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with earphones please<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机按下拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPress earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍个照片吧<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture with earphones please<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照功能<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nEarphone photo function<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n启动耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nActivate earphone photo capture<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机控制相机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to control the camera<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机点击拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTap earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机执行拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nExecute photo capture via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机辅助拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nEarphone-assisted photo capture<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n放上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n返回上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReturn to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一首歌<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious music<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous one<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n换上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nChange to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首歌曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换到上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n回到上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo back to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首继续<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue with the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一个歌曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n往前一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo back one song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首音频<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious audio<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切回上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch back to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n回上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nBack to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首播放音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay previous music<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一个<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一个音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首继续播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume from the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一曲播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换回上一个<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch back to the previous one<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳过这首歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip this song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n放下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nJump to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放下一首歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首音乐<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext music<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next one<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n换下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nChange to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首歌曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue to the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一个歌曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n往后一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo forward one song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首音频<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext audio<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳到下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nJump to the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首继续<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue with the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首开始<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换下一曲播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch and play the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一个音乐<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首继续播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一曲播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首歌播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量增大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nIncrease the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn up the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake it louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量调大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把声音调大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the sound up<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量加大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n提高音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nRaise the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音放大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAmplify the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音调高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nRaise the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音量调高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往上调<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume up<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音加大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the sound a bit louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调高音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume higher<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n增加音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA bit louder please<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量提升<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nBoost the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大声音<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn up the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音再大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA little louder please<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n再大一点音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume a bit higher<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音放大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAmplify the sound a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n提高声音<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往上调一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume up a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量增加一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nIncrease the volume a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音加强<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStrengthen the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大一点音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the volume up a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nDecrease the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn down the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake it quieter<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量调小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把声音调小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the sound down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量降低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLower the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n降低音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReduce the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音变小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the sound quieter<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume lower<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音调低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLower the sound<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音量调低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往下调<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音减小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReduce the sound a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调低音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减少<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n降低声音<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA bit quieter please<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量下降<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小声音<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn down the sound<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音再小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA little quieter please<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n再小一点音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume a bit lower<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音弱一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSoften the sound a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n减小音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往下调一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume down a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减少一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nDecrease the volume a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音降低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小一点音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the volume down a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音乐暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先停一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause current playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音乐暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMusic paused<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先停一下播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop playback for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the current music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音频<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause audio<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止音乐播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop music playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音频播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause audio playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the current song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停声音<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the sound<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停这首歌<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause this song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the song for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止一下音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop the music for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音乐先暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放音乐<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n恢复播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放音乐<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n接着播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nKeep playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n恢复音乐播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume music playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing the song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n接着播<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续当前播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue the current playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开始播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放当前歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the current song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放一下<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay it<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n直接播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay directly<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n立刻播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay immediately<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n马上播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay right away<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开启播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n启动播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLaunch playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n点播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTap play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n按下播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPress play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n打开播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn on playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放模式<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay mode<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开始听歌<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart listening to music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "人工智能正在改变我们的生活方式。从智能手机到自动驾驶，从医疗诊断到金融分析，AI技术已经渗透到了我们日常生活的方方面面。"
+  },
+  {
+    "text": "量化是将深度学习模型中的浮点数权重转换为低比特整数表示的技术，可以显著减少模型的存储空间和计算开销，同时尽量保持模型的精度。"
+  },
+  {
+    "text": "语音助手通过自然语言处理技术，能够理解用户的口语指令，并执行相应的操作，如播放音乐、设置闹钟、查询天气等。"
+  },
+  {
+    "text": "在移动设备上部署大语言模型需要考虑模型大小、推理速度和功耗等因素，量化技术是实现这一目标的关键手段之一。"
+  },
+  {
+    "text": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet and is commonly used for testing purposes."
+  },
+  {
+    "text": "Machine learning models can be optimized for edge deployment through techniques like quantization, pruning, and knowledge distillation."
+  },
+  {
+    "text": "Natural language processing enables computers to understand, interpret, and generate human language in a way that is both meaningful and useful."
+  },
+  {
+    "text": "Deep learning has revolutionized the field of artificial intelligence, enabling breakthroughs in computer vision, speech recognition, and natural language understanding."
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo for me<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with my phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake photos with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用手机拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture with my phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture for me<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍个照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍个照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮忙拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n我要拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nI want to take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n现在拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo now<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n立刻拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo immediately<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n马上拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo right away<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take one<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一张吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一下<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a quick photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我来张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我照张相<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机拍一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机来一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n打开相机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nOpen the camera to take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n快拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo quickly<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一下<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a quick photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍个照片吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍个照片吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo for me please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo using the earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake photos via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍张照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture with my earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机控制拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nControl photo capture with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机帮我拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take a photo for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机帮我拍张照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHave earphones take a picture for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机拍个照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake pictures with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机触发拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTrigger photo capture via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机按键拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo via earphone button<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机进行拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍一张<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take one with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机帮我拍照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take pictures for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照一下<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a quick photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机快速拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nQuickly take a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张照片吧<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with earphones please<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机按下拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPress earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍个照片吧<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture with earphones please<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照功能<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nEarphone photo function<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n启动耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nActivate earphone photo capture<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机控制相机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to control the camera<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机点击拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTap earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机执行拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nExecute photo capture via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机辅助拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nEarphone-assisted photo capture<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n放上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n返回上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReturn to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一首歌<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious music<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous one<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n换上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nChange to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首歌曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换到上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n回到上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo back to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首继续<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue with the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一个歌曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n往前一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo back one song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首音频<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious audio<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切回上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch back to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n回上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nBack to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首播放音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay previous music<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一个<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一个音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首继续播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume from the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一曲播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换回上一个<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch back to the previous one<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳过这首歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip this song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n放下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nJump to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放下一首歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首音乐<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext music<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next one<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n换下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nChange to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首歌曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue to the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一个歌曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n往后一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo forward one song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首音频<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext audio<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳到下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nJump to the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首继续<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue with the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首开始<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换下一曲播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch and play the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一个音乐<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首继续播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一曲播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首歌播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量增大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nIncrease the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn up the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake it louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量调大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把声音调大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the sound up<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量加大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n提高音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nRaise the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音放大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAmplify the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音调高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nRaise the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音量调高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往上调<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume up<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音加大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the sound a bit louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调高音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume higher<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n增加音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA bit louder please<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量提升<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nBoost the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大声音<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn up the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音再大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA little louder please<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n再大一点音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume a bit higher<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音放大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAmplify the sound a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n提高声音<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往上调一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume up a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量增加一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nIncrease the volume a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音加强<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStrengthen the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大一点音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the volume up a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nDecrease the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn down the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake it quieter<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量调小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把声音调小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the sound down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量降低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLower the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n降低音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReduce the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音变小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the sound quieter<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume lower<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音调低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLower the sound<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音量调低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往下调<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音减小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReduce the sound a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调低音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减少<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n降低声音<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA bit quieter please<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量下降<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小声音<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn down the sound<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音再小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA little quieter please<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n再小一点音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume a bit lower<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音弱一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSoften the sound a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n减小音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往下调一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume down a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减少一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nDecrease the volume a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音降低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小一点音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the volume down a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音乐暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先停一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause current playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音乐暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMusic paused<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先停一下播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop playback for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the current music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音频<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause audio<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止音乐播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop music playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音频播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause audio playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the current song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停声音<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the sound<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停这首歌<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause this song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the song for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止一下音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop the music for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音乐先暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放音乐<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n恢复播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放音乐<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n接着播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nKeep playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n恢复音乐播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume music playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing the song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n接着播<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续当前播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue the current playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开始播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放当前歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the current song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放一下<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay it<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n直接播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay directly<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n立刻播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay immediately<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n马上播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay right away<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开启播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n启动播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLaunch playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n点播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTap play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n按下播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPress play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n打开播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn on playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放模式<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay mode<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开始听歌<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart listening to music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "人工智能正在改变我们的生活方式。从智能手机到自动驾驶，从医疗诊断到金融分析，AI技术已经渗透到了我们日常生活的方方面面。"
+  },
+  {
+    "text": "量化是将深度学习模型中的浮点数权重转换为低比特整数表示的技术，可以显著减少模型的存储空间和计算开销，同时尽量保持模型的精度。"
+  },
+  {
+    "text": "语音助手通过自然语言处理技术，能够理解用户的口语指令，并执行相应的操作，如播放音乐、设置闹钟、查询天气等。"
+  },
+  {
+    "text": "在移动设备上部署大语言模型需要考虑模型大小、推理速度和功耗等因素，量化技术是实现这一目标的关键手段之一。"
+  },
+  {
+    "text": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet and is commonly used for testing purposes."
+  },
+  {
+    "text": "Machine learning models can be optimized for edge deployment through techniques like quantization, pruning, and knowledge distillation."
+  },
+  {
+    "text": "Natural language processing enables computers to understand, interpret, and generate human language in a way that is both meaningful and useful."
+  },
+  {
+    "text": "Deep learning has revolutionized the field of artificial intelligence, enabling breakthroughs in computer vision, speech recognition, and natural language understanding."
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo for me<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with my phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake photos with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用手机拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture with my phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍张照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture for me<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍个照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍个照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮忙拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n我要拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nI want to take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n现在拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo now<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n立刻拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo immediately<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n马上拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo right away<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take one<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一张吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍一下<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a quick photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我来张照片<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我照张相<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机拍一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用手机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo with the phone<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n手机来一张<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n打开相机拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nOpen the camera to take a photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n快拍照<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo quickly<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我拍一下<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a quick photo<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n拍个照片吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n给我拍个照片吧<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo for me please<|im_end|>\n<|im_start|>assistant\n手机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo using the earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake photos via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍张照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a picture with my earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机控制拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nControl photo capture with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机帮我拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take a photo for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake one with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机帮我拍张照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHave earphones take a picture for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机拍个照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake pictures with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机触发拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTrigger photo capture via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机按键拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo via earphone button<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机进行拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n帮我用耳机拍一张<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nHelp me take one with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机帮我拍照片<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to take pictures for me<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照一下<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a quick photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机快速拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nQuickly take a photo with earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍一张照片吧<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a photo with earphones please<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机按下拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPress earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍个照片吧<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTake a picture with earphones please<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机拍照功能<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nEarphone photo function<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n启动耳机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nActivate earphone photo capture<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机控制相机拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nUse earphones to control the camera<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n用耳机点击拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTap earphones to take a photo<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机执行拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nExecute photo capture via earphones<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n耳机辅助拍照<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nEarphone-assisted photo capture<|im_end|>\n<|im_start|>assistant\n耳机拍照<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n放上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n返回上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReturn to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一首歌<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious music<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous one<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n换上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nChange to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首歌曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换到上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n回到上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo back to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首继续<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue with the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一个歌曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n往前一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo back one song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首音频<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPrevious audio<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切回上一首<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch back to the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n回上一曲<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nBack to the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首播放音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay previous music<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放上一个<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一个音乐<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一首继续播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume from the previous song<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n上一曲播放<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the previous track<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换回上一个<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch back to the previous one<|im_end|>\n<|im_start|>assistant\n上一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳过这首歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip this song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n放下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nJump to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放下一首歌<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首音乐<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext music<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next one<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSkip to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n换下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nChange to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首歌曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换到下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue to the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一个歌曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n往后一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nGo forward one song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首音频<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nNext audio<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n跳到下一曲<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nJump to the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首继续<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue with the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首开始<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切换下一曲播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch and play the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一个音乐<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首继续播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一曲播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the next track<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n下一首歌播放<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续下一首<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue to the next song<|im_end|>\n<|im_start|>assistant\n下一曲<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量增大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nIncrease the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn up the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake it louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量调大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把声音调大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the sound up<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量加大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n提高音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nRaise the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音放大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAmplify the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变大<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音调高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nRaise the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音量调高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往上调<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume up<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音加大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the sound a bit louder<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调高音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变高<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume higher<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n增加音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA bit louder please<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量提升<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nBoost the volume<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大声音<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn up the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音再大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA little louder please<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n再大一点音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume a bit higher<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音放大一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAmplify the sound a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n提高声音<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往上调一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume up a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量增加一点<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nIncrease the volume a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音加强<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStrengthen the sound<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调大一点音量<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the volume up a bit<|im_end|>\n<|im_start|>assistant\n音量增大<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nDecrease the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn down the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake it quieter<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量调小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把声音调小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the sound down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量降低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLower the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n降低音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReduce the volume<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音变小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the sound quieter<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量变小<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMake the volume lower<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音调低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLower the sound<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音量调低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往下调<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音减小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nReduce the sound a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调低音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减少<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n降低声音<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA bit quieter please<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量下降<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume down<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小声音<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn down the sound<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音再小一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nA little quieter please<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n再小一点音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nVolume a bit lower<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音弱一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSoften the sound a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n减小音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量往下调一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nAdjust the volume down a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音量减少一点<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nDecrease the volume a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n声音降低<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n调小一点音量<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn the volume down a bit<|im_end|>\n<|im_start|>assistant\n音量减小<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n把音乐暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先停一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause current playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音乐暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nMusic paused<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止一下<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先停一下播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop playback for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the current music<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音频<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause audio<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止音乐播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop music playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停音频播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause audio playback<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停当前歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the current song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停声音<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the sound<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停这首歌<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause this song<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the music for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n暂停一下歌曲<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause the song for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n停止一下音乐<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStop the music for a moment<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n音乐先暂停<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n先暂停播放<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPause playback first<|im_end|>\n<|im_start|>assistant\n暂停播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放音乐<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n恢复播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放音乐<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n接着播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nKeep playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n恢复音乐播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nResume music playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续播放歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue playing the song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n接着播<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n继续当前播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nContinue the current playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开始播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart playing<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放当前歌曲<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay the current song<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放一下<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay it<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n直接播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay directly<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n立刻播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay immediately<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n马上播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay right away<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开启播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n启动播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nLaunch playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n点播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTap play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n按下播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPress play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n打开播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nTurn on playback<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n切到播放<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nSwitch to play<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n播放模式<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nPlay mode<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\n开始听歌<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "<|im_start|>user\nStart listening to music<|im_end|>\n<|im_start|>assistant\n继续播放<|im_end|>"
+  },
+  {
+    "text": "人工智能正在改变我们的生活方式。从智能手机到自动驾驶，从医疗诊断到金融分析，AI技术已经渗透到了我们日常生活的方方面面。"
+  },
+  {
+    "text": "量化是将深度学习模型中的浮点数权重转换为低比特整数表示的技术，可以显著减少模型的存储空间和计算开销，同时尽量保持模型的精度。"
+  },
+  {
+    "text": "语音助手通过自然语言处理技术，能够理解用户的口语指令，并执行相应的操作，如播放音乐、设置闹钟、查询天气等。"
+  },
+  {
+    "text": "在移动设备上部署大语言模型需要考虑模型大小、推理速度和功耗等因素，量化技术是实现这一目标的关键手段之一。"
+  },
+  {
+    "text": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet and is commonly used for testing purposes."
+  },
+  {
+    "text": "Machine learning models can be optimized for edge deployment through techniques like quantization, pruning, and knowledge distillation."
+  },
+  {
+    "text": "Natural language processing enables computers to understand, interpret, and generate human language in a way that is both meaningful and useful."
+  },
+  {
+    "text": "Deep learning has revolutionized the field of artificial intelligence, enabling breakthroughs in computer vision, speech recognition, and natural language understanding."
+  }
+]

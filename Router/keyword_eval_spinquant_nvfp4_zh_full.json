@@ -1,0 +1,24 @@
+{
+  "model": "Qwen3-4B-SpinQuant-NVFP4",
+  "model_path": "/dfs/data/model_hub/models/Qwen3-4B-SpinQuant-NVFP4",
+  "eval_scope": "all_zh_221",
+  "status": "NOT_EVALUABLE_VIA_HF_TRANSFORMERS",
+  "reason": [
+    "该 checkpoint 为 vLLM 原生 compressed-tensors NVFP4 (W4A4) 格式，README 仅提供 vLLM 加载方式。",
+    "checkpoint 缺失 lm_head.weight，且 config tie_word_embeddings=false 与权重文件自相矛盾，HF 加载时 lm_head 被随机初始化。",
+    "SpinQuant R1/R2 在线 Hadamard 旋转需要 vLLM 运行时 kernel 配合，HF transformers 推理路径不还原，输出为乱码。"
+  ],
+  "work_done": [
+    "修复 tokenizer 配置不兼容：改用基座 Qwen3-4B 的 tokenizer。",
+    "升级 compressed-tensors 0.10.2 -> 0.13 -> 0.16；修复 NVFP4 float8_e4m3fn 类型提升 bug（forward.py _quantize/_dequantize 两处除法 upcast 到 float32）。",
+    "为旧版补 transformers.masking_utils 垫片。",
+    "创建隔离 venv /tmp/nvfp4_env（system-site-packages）安装 transformers 4.56.1 + compressed-tensors 0.16.0 + tokenizers 0.22.0，使 NVFP4 解压与 SpinQuant 变换原生跑通，但因 lm_head 缺失 + 旋转未还原仍输出乱码。"
+  ],
+  "recommended_runtime": "vLLM (vllm serve drawais/Qwen3-4B-SpinQuant-NVFP4)",
+  "comparison_baselines_221_zh": {
+    "Qwen3-4B-FP16": {"accuracy": 0.9276, "avg_inference_time_sec": 0.158},
+    "Qwen3-0.6B-FP16": {"accuracy": 0.8914, "avg_inference_time_sec": 0.126},
+    "Qwen3-0.6B-GPTQ-Int4": {"accuracy": 0.8643, "avg_inference_time_sec": 0.252},
+    "Qwen3-0.6B-AWQ-Int4": {"accuracy": 0.8643, "avg_inference_time_sec": 0.346}
+  }
+}
